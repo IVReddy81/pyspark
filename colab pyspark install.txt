@@ -1,0 +1,20 @@
+!wget https://dlcdn.apache.org/spark/spark-3.3.0/spark-3.3.0-bin-hadoop3.tgz
+
+!tar -xvzf spark-3.3.0-bin-hadoop3.tgz
+
+!ls /content/spark-3.3.0-bin-hadoop3
+
+!pip install findspark
+
+import os
+os.environ["SPARK_HOME"]="/content/spark-3.3.0-bin-hadoop3"
+
+import findspark
+findspark.init()
+
+!pip install pyspark
+!pyspark --version
+
+from pyspark.sql import SparkSession
+spark=SparkSession.builder.appName("king").getOrCreate()
+spark
