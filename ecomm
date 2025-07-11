@@ -1,0 +1,26 @@
+[
+   {
+      "file":"olist_customers_dataset.csv"
+   },
+   {
+      "file":"olist_geolocation_dataset.csv"
+   },
+   {
+      "file":"olist_order_items_dataset.csv"
+   },
+   {
+      "file":"olist_order_reviews_dataset.csv"
+   },
+   {
+      "file":"olist_orders_dataset.csv"
+   },
+   {
+      "file":"olist_products_dataset.csv"
+   },
+   {
+      "file":"olist_sellers_dataset.csv"
+   },
+   {
+      "file":"product_category_name_translation.csv"
+   }
+]
